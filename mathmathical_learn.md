@@ -5,3 +5,14 @@
    + http://math.mit.edu/~gs/linearalgebra/linearalgebra5_6Great.pdf
 4. Gilbert Strang, [A 2020 Vision of Linear Algebra](https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm)
    + https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/videos/MITRES_18_010S20_LA_Slides.pdf
+
+5. [醍醐灌顶之-线性代数-矩阵论](https://www.cnblogs.com/tsingke/p/6180167.html)
+   1. 空间
+      + 空间
+      + 向量空间
+      + 线性空间
+      + 拓扑空间
+      + 仿射空间---《计算机图形学——几何工具算法详解》
+   2. 矩阵变换
+   3. 基/维
+   4. 行列式

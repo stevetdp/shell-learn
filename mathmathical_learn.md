@@ -17,3 +17,5 @@
    2. 矩阵变换
    3. 基/维
    4. 行列式
+
+6. [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)

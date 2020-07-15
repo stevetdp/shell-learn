@@ -18,4 +18,6 @@
    3. 基/维
    4. 行列式
 
-6. [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+6. [Linear Algebra Done Right](https://zhangyk8.github.io/teaching/file_spring2018/linear_algebra_done_right.pdf)
+8. 《Linear Algebra Done Wrong》
+9. [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)

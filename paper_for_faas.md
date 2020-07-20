@@ -35,6 +35,12 @@ that need only be assigned to a tenant, and an “active pool” of instances th
 run a function before and are maintained to serve future invocations [13]. The resource lifecycle
 management and multi-tenant bin packing necessary to achieve high utilization are key technical
 enablers of serverless computing
+   + 五大应用场景
+     + ExCamera: Video encoding in real-time
+     + MapReduce
+     + Numpywren: Linear algebra
+     + Cirrus: Machine learning training
+     + Serverless SQLite: Databases
    
 ## 开源技术
 

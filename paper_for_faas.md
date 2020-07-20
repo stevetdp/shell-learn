@@ -29,9 +29,12 @@
 5. [Cloud Programming Simplified: A Berkeley View on Serverless Computing](https://arxiv.org/pdf/1902.03383.pdf)
    
    + 总结了AWS Lambda的各种特征
-   + AWS Lambda的热启动技术：One approach, reflected in AWS Lambda, is maintaining a “warm pool” of VM instances
-     that need only be assigned to a tenant, and an “active pool” of instances that have been used to
-     run a function before and are maintained to serve future invocations
+   + AWS Lambda的热启动技术：
+     One approach, reflected in AWS Lambda, is maintaining a “warm pool” of VM instances
+that need only be assigned to a tenant, and an “active pool” of instances that have been used to
+run a function before and are maintained to serve future invocations [13]. The resource lifecycle
+management and multi-tenant bin packing necessary to achieve high utilization are key technical
+enablers of serverless computing
    
 ## 开源技术
 

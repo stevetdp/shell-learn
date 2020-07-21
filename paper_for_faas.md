@@ -51,7 +51,16 @@ enablers of serverless computing
    + 第一代： VM
    + 第二代： Container, 以及存在的Cold-Start性能问题
    + 第三代： Lambda
-   
+
+2. [ZeroVM: Secure Distributed Processing for Big Data Analytics](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7084334)
+
+   +  存算分离面临的问题：带宽和时延的开销，计算节点的CPU、I/O开销      
+      the historic separation of storage and computation has the net effect to
+      increase latency as well as decrease performance. In the
+      services context, the management of backend data (such as
+      in a database) introduces substantial complexity and scaling challenges
+   +  近数据计算：减少数据流动
+
 ## 研究组织
 
 1. [The SPEC Cloud Group’s Research Vision on FaaS and Serverless Architectures]()

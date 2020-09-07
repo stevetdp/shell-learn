@@ -4,7 +4,9 @@
    
 2.  LSM-Tree
 
-   [LSM-Tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)
+   + [LSM-Tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)\
+   
+   + [Log Structured Merge Trees(LSM) 原理](https://www.open-open.com/lib/view/open1424916275249.html)
 
 3.  分布式锁
 

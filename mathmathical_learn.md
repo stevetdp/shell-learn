@@ -21,3 +21,4 @@
 6. [Linear Algebra Done Right](https://zhangyk8.github.io/teaching/file_spring2018/linear_algebra_done_right.pdf)
 8. 《Linear Algebra Done Wrong》
 9. [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+10. [傅里叶变换](https://jackschaedler.github.io/circles-sines-signals/)

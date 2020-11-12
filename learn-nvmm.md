@@ -12,3 +12,4 @@
 ### 国内研究者
 
 1. 沙行勉 教授
+2. [基于非易失性内存的用户态内存文件系统的设计和实现](http://cnki.huawei.com/kcms/detail/detail.aspx?recid=&FileName=1017722715.nh&DbName=CMFDLAST2018&DbCode=CMFD&uid=SzFreHRJOCtucVlObHVwR2lOS1gxKzdkMFpOYU8yWmVYL0g3SnRPczRQcy9IN0xG)

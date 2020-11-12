@@ -11,6 +11,13 @@
 1. [loom 轻量级的线程](http://openjdk.java.net/projects/loom/)
 2. [kotlin coroutine](https://kotlinlang.org/docs/reference/coroutines.html)
 
+## 传参
+
+传参本质是 求值策略， 目前有： 值传递、引用传递、共享对象传递
++ 值传递：是对节点复制一份
++ 引用传递： 按图论中的标记删除回收原理去理解，是对节点多加了一条引用边
++ 共享对象传递：按图论中的标记删除回收原理去理解，是传节点的内存地址
+
 ## reactive stream
 
 1. [Reactive架构升级实践——淘宝全站业务的全异步流式架构升级.pdf]()

@@ -27,8 +27,20 @@
     4. 如果chunk容量过满，则chunk在自身范围内进行分裂，再细划出N个小范围chunk。让存储容量空间扩大N倍。
     5. 当各个shard上chunk数量不均衡时，会触发chunk在shard间的迁移
     6. database开启分片， collection开启数据分片
+    
+2.  一些约束
+    1.  shardkey有512字节的长度限制
+    2.  shardkey必须是索引
+    3.  必须根据操作来合理建立shardkey和索引，否则会引起慢操作
+    3.  开源的driver:  mongo driver/mgo driver
+    
+3.  mgo driver注意事项：
+    1. mongoServer.AcquireSocket中会通过PoolLimit对最大连接数做限制，但在大并发下其mongoServer.Connect()会不受PoolLimit控制
+    2. mongos采用的是同步线程模型，但可以配置mongos的最大连接数，避免连接数冲高
+    3. mongos出现慢操作后，driver会出现超时。这时会删除掉该socket，并通知cluster释放server。容易触发问题1
+    4. driver提交到mongos的任务，如果提前结束， mongos的线程依然不会立即释放，会等写完shard后才能释放
 
-2. [MongoDB Multi-Data Center Deployments](http://s3.amazonaws.com/info-mongodb-com/MongoDB_Multi_Data_Center.pdf)
+4. [MongoDB Multi-Data Center Deployments](http://s3.amazonaws.com/info-mongodb-com/MongoDB_Multi_Data_Center.pdf)
 
     1. 将shard副本集分散到不同的数据中心
     

@@ -35,6 +35,8 @@
 
 ### 10.[yan Barrett, Google App Engine datastore lead, gave this talk Transactions Across Datacenters (and Other Weekend Projects) at the Google I/O 2009 conference. ](http://highscalability.com/blog/2009/8/24/how-google-serves-data-from-multiple-datacenters.html)
 
+### 11. [Foundational distributed systems papers](http://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html)
+
 ### etcd 
 
 1. [本地搭建etcd 集群](https://skyao.gitbooks.io/learning-etcd3/content/documentation/dev-guide/local_cluster.html)：

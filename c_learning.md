@@ -1,3 +1,8 @@
+### 开发环境
+1. 安装CLion IDE工具
+2. 安装[minGW](https://mingw.osdn.io/), 配置C/C++编译器, 如果是Posix环境，建议安装[cygwin](http://www.cygwin.com/)
+3. 配置CLion---Setting-Toolchains添加minGW
+
 ### 1. 编译 extern
 
 编译阶段，编译器的可见性仍局限于各自的文件。 编译器的目光不够长远，编译器没有能够意识到，某个变量符号虽然不是本文件定义的，但是它可能是在其它的文件中定义的。

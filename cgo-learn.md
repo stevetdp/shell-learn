@@ -1,3 +1,8 @@
+### CGO注意事项：
+
+C伪代码的注意事项：
+  > Exception: static variables in the preamble may not be referenced from Go code; static functions are permitted.
+
 ### 基础知识
 
 1. [Go语言高级编程-CGO](https://chai2010.cn/advanced-go-programming-book/ch2-cgo/ch2-07-memory.html)

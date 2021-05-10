@@ -29,3 +29,7 @@ push模式下，如果生产者生产的速度大于消息的速度，则消息�
 背压的思想是在pull模式，由消息者主动提出能消费多少消息， 生产者每次提供不超过消息者一次消息能力的消息。这实质就是一种系统反馈。
 
 
+### SDK中解决包冲突
+
+1. 采用maven-shade-plugin插件，对依赖的包进行重命名。特点：依赖的包都必须打到jar包中。
+   可以参考：https://github.com/huaweicloud/huaweicloud-sdk-java-v3

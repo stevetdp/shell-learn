@@ -1,3 +1,5 @@
 1. [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 2. [washington CSE 373](https://courses.cs.washington.edu/courses/cse373/19sp/)
 3. [CP-Algorithms](https://cp-algorithms.com/)
+4. [俄罗斯数学网](http://www.mathnet.ru/)
+5. [最大流 论文](https://www.cs.bgu.ac.il/~dinitz/Papers/Dinitz_alg.pdf)

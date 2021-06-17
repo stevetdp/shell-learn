@@ -2,3 +2,4 @@
 2. [NVMe SSD盘“登基”咋就这么难？](https://www.doit.com.cn/p/237852.html)
 3. [PCIE](https://zhuanlan.zhihu.com/p/75880470)
     『PCI』和『PCI-E』是两种完全不同的接口。PCI较老，正在逐步淘汰，也就是新主板基本不再设置PCI接口或者只保留1个。PCI-E接口则是根据插槽的长度，也就是触点的多少，可以分为X1、X4、X8，X16。X得越多，带宽越大。而且这些XX都对应版本号，分v1、v2、v3，v4，v4刚刚出来还没普及，一般见到的都是V2和V3，版本号越高带宽也越大。
+4. [深入PCI与PCIe之一：硬件篇](https://zhuanlan.zhihu.com/p/26172972)

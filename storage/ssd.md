@@ -8,3 +8,5 @@
 7. [Linux Storage Stack Diagram](https://www.thomas-krenn.com/en/wiki/Linux_Storage_Stack_Diagram)
 8. [华为 NVMeoF](http://net.it168.com/a2020/0323/6159/000006159270.shtml) NVMeoF = NVMe over Fabric
 9. [NVMe over TCP](https://www.flashmemorysummit.com/English/Collaterals/Proceedings/2018/20180809_NVMF-302-1_Grimberg.pdf)
+   - [NVMe/TCP的基本概念](http://www.mulix.org/talks/lightbits/NVMeTCP%20for%20Flash%20Memory%20Summit%2020170804.pdf)
+   - [NVMe Over TCP Will Take Time to Eclipse RDMA](https://www.eetimes.com/nvme-over-tcp-will-take-time-to-eclipse-rdma/)

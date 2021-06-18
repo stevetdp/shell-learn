@@ -5,3 +5,4 @@
 4. [深入PCI与PCIe之一：硬件篇](https://zhuanlan.zhihu.com/p/26172972)
 5. [一个NVMe读I/O过程](https://www.pianshen.com/article/41061173620/)
 6. [ssd fans](http://www.ssdfans.com/)
+7. [Linux Storage Stack Diagram](https://www.thomas-krenn.com/en/wiki/Linux_Storage_Stack_Diagram)

@@ -10,3 +10,9 @@
 9. [NVMe over TCP](https://www.flashmemorysummit.com/English/Collaterals/Proceedings/2018/20180809_NVMF-302-1_Grimberg.pdf)
    - [NVMe/TCP的基本概念](http://www.mulix.org/talks/lightbits/NVMeTCP%20for%20Flash%20Memory%20Summit%2020170804.pdf)
    - [NVMe Over TCP Will Take Time to Eclipse RDMA](https://www.eetimes.com/nvme-over-tcp-will-take-time-to-eclipse-rdma/)
+
+10. [NVMe over RDMA]
+   - RDMA 有关send(), recv()函数的理解：https://www.cnblogs.com/aixingfou/archive/2011/07/29/2120956.html
+   - Using one-side RDMA Reads to Build a Fast, CPU-Efficient Key-Value Store
+   - [Linux] Networking: https://compas.cs.stonybrook.edu/~nhonarmand/courses/fa17/cse306/slides/19-net.pdf
+   - Introduction to RDMA Programming

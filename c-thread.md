@@ -12,3 +12,7 @@
    - sem_trywait(sem_t *sem)
    - sem_timedwait(sem_t *sem, const struct timespec *abs_timeout)
    - sem_overview
+8. pthread condition variable
+   - pthread_cond_wait()： 当条件不成立时，条件变量可以阻塞当前线程，所有被阻塞的线程会构成一个等待队列，当前线程sleep，并释放锁；唤醒：重新获取锁。
+   - pthread_cond_signal(): 条件OK，唤醒条件变量上阻塞队列中的sleep线程。pthread_cond_signal() 函数至少解除一个线程的“被阻塞”状态，如果等待队列中包含多个线程，优先解除哪个线程将由操作系统的线程调度程序决定；
+   参考： http://c.biancheng.net/view/8633.html

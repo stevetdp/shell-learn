@@ -14,3 +14,4 @@
      - [2022 CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html)
 8. [Paper: A Taxonomy of Software Security Errors](https://samate.nist.gov/SSATTM_Content/papers/Seven%20Pernicious%20Kingdoms%20-%20Taxonomy%20of%20Sw%20Security%20Errors%20-%20Tsipenyuk%20-%20Chess%20-%20McGraw.pdf)
 9. [Secure-Programs-HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO.pdf)
+10. [Secure Coding in C and C++: An Interview with Robert Seacord](https://resources.sei.cmu.edu/asset_files/Article/2005_101_001_887039.pdf)

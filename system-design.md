@@ -4,6 +4,7 @@
 2. [How-Amazon-Web-Services-Uses-Formal-Methods](https://www.cslab.pepperdine.edu/warford/math221/How-Amazon-Web-Services-Uses-Formal-Methods.pdf)
 3. [Worse Is Better](https://www.dreamsongs.com/WorseIsBetter.html)
 5. [Parnas，他70年代的经典论文《系统模块分解的标准》](http://sunnyday.mit.edu/16.355/parnas-criteria.html)
+6. [微软 How to fight production incidents?: an empirical study on a large-scale cloud service](https://dl.acm.org/doi/10.1145/3542929.3563482)
 
 
 ## Research

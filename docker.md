@@ -1,4 +1,5 @@
-1. prepare and install
+### 1. prepare and install
+ubuntu环境下指南： https://docs.docker.com/engine/install/ubuntu/
 
 https://docs.docker.com/engine/getstarted/step_one/#step-1-get-docker
 https://docs.docker.com/engine/installation/
@@ -24,7 +25,7 @@ sudo apt-get install apparmor
 
 -- Run docker ps -a to show all containers
 
-2. create group
+### 2. create group
 
 -- sudo groupadd docker
 -- sudo usermod -aG docker ubuntu  or sudo gpasswd -a ${USER} docker
@@ -33,13 +34,13 @@ sudo apt-get install apparmor
 -- docker run hello-world
 
 
-3. docker hub(a set of docker image)
+### 3. docker hub(a set of docker image)
 https://docs.docker.com/engine/getstarted/step_three/
 https://hub.docker.com/
 
 how to build a private docker hub?
 
-4. build own docker image
+### 4. build own docker image
 https://docs.docker.com/engine/getstarted/step_four/
 
 ---create build context directory
@@ -48,7 +49,7 @@ https://docs.docker.com/engine/getstarted/step_four/
 ---run docker run image-name
 ---docker images
 
-5. tag and push images
+### 5. tag and push images
 ---docker tag image-id docker-hub-name/image-name:tag-name
 ---docker login --username=xxx --email=xxx
 Note: Your authentication credentials will be stored in the .docker/config.json authentication file in your home directory.
@@ -56,11 +57,11 @@ Note: Your authentication credentials will be stored in the .docker/config.json 
 ---docker push docker-hub-name/image-name
 ---images manage: docker hub repo
 
-6. remove docker images
+### 6. remove docker images
 ---docker rmi -f image-id|image-name
 ---docker pull docker-repo-name
 
-7. docker-machine
+### 7. docker-machine
 https://docs.docker.com/machine/overview/
 Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands. 
 
@@ -70,7 +71,7 @@ Docker Machine: To deploy virtual machines that run Docker Engine.
 
 ----docker driver
 
-8. Docker Swarm
+### 8. Docker Swarm
 Docker Swarm is native clustering for Docker. It turns a pool of Docker hosts into a single, virtual Docker host
 https://www.docker.com/products/docker-swarm
 

@@ -1,3 +1,8 @@
+### 0. windows环境
+1. 安装wsl
+2. 安装ubuntu 22.04(应用商城中下载镜像后直接点击安装)
+3. 卸载老版本(wsl --unregister Ubuntu)
+
 ### 1. prepare and install
 ubuntu环境下指南： https://docs.docker.com/engine/install/ubuntu/
 

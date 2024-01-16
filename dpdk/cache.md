@@ -43,3 +43,40 @@
 8. **释放内存**：记得在释放内存时，释放的是原始分配的地址，而不是对齐后的地址。
 
 通过上述步骤，你可以确保分配的内存地址是Cache Line对齐的，这有助于提高数据访问的效率，因为CPU可以更有效地从Cache中加载和存储数据。
+
+
+### 通过GNU C扩展指定内存对齐
+
+ 在C语言中，`__attribute__((aligned(alignment)))` 是一个GNU C扩展，它允许开发者指定变量、结构体或类的内存对齐方式。这个宏定义用于告诉编译器，分配给这个变量或数据结构的内存应该以指定的字节对齐。
+
+具体来说，`__attribute__((aligned(RTE_CACHE_LINE_SIZE)))` 这个宏定义的含义如下：
+
+- `__attribute__((aligned(alignment)))`：这是一个属性，告诉编译器在分配内存时，按照`alignment`指定的字节数对齐。
+- `RTE_CACHE_LINE_SIZE`：这是一个宏，通常在项目中定义，它代表Cache Line的大小。在实时操作系统（Real-Time Operating System, RTE）的上下文中，这个宏定义了操作系统使用的Cache Line大小。
+
+结合起来，`__attribute__((aligned(RTE_CACHE_LINE_SIZE)))` 告诉编译器，任何带有这个属性的变量或数据结构应该按照`RTE_CACHE_LINE_SIZE`定义的Cache Line大小进行对齐。这样做可以提高内存访问效率，因为CPU可以更有效地从Cache中读取或写入数据。
+
+例如，如果你有一个结构体，你希望它的每个实例都按照Cache Line对齐，你可以这样定义：
+
+```c
+struct MyStruct __attribute__((aligned(RTE_CACHE_LINE_SIZE))) {
+    // 结构体成员
+};
+```
+
+或者，如果你有一个变量，你希望它按照Cache Line对齐，你可以这样声明：
+
+```c
+int myVar __attribute__((aligned(RTE_CACHE_LINE_SIZE)));
+```
+
+这样，编译器在编译时就会确保这些变量或结构体的内存地址是Cache Line大小的倍数，从而满足对齐要求。
+
+
+ GNU C扩展是GNU Compiler Collection (GCC) 提供的一组非标准特性，这些特性在标准的C语言中是没有的。这些扩展提供了额外的功能和优化，以提高编程的便利性和代码的性能。由于这些特性不是C语言标准的一部分，因此在使用时需要注意它们可能不会在所有编译器或平台上工作。
+
+要获取GNU C扩展的详细文档，你可以访问GNU C Reference Manual，这是GNU项目提供的官方文档，包含了GNU C扩展的完整列表和详细说明。以下是文档的链接：
+
+- [GNU C Reference Manual](https://www.gnu.org/software/gcc/gcc.html)
+
+在这个页面上，你可以找到关于GNU C扩展的详细信息，包括它们如何工作以及如何在GCC中启用这些扩展。请注意，这个链接指向的是GCC的官方页面，其中包含了GCC的一般信息，包括C语言的参考手册。如果你需要找到具体的GNU C扩展文档，你可能需要在GCC的官方文档中进行搜索或者查看相关的章节。

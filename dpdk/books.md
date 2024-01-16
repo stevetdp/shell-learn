@@ -10,3 +10,7 @@
     - By Bruce Jacob et al.
 + Synthesis Lectures on Computer Architecture
     - Mark D. Hill 主编的一系列讲义。
+ 
+参考课件：
++ 课件：http://www.cs.sjtu.edu.cn/~lichao/cn/slides-cn.html
++ 计算机体系结构课件：https://qsctech.github.io/zju-icicles/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/
